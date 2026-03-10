@@ -1,0 +1,288 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>Session 0</title>
+<base href="..">
+<meta name="pathname" content="story/session-0.html">
+<meta name="description" content="XIV - Session 0">
+<meta property="og:title" content="Session 0">
+<meta property="og:description" content="XIV - Session 0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="story/session-0.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="XIV"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="stylesheet" href="site-lib/styles/theme.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager mod-linux is-hidden-frameless styled-scrollbars show-inline-title show-ribbon is-focused sidebar-float-bottom check-color check-bg wotc-beyond"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Session_0_0">Session 0</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-p"><p dir="auto">After reading the introduction the players should start piece by piece creating a character as you introduce bits of the 1.0 story, in preparation to send them into ARR for session 1. Expect session 0 to take between 2 and 4 hours. All dependent on your players ability to decide on characters, and how much they want to learn about events. </p></div><div class="el-p"><p dir="auto">Important events in preferred order are detailed below.</p></div><div class="el-h2"><h2 data-heading="Welcome to Eorzea" dir="auto" class="heading" id="Welcome_to_Eorzea_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Welcome to Eorzea</h2></div><div class="el-p"><p dir="auto">First, have your players choose their race, class and name. Having them decide their class can help guide a new player to which city would best fit their profession. While they don't have to start in that jobs usual city, it can help build an affiliation to a city early on. </p></div><div class="el-p"><p dir="auto">For Ishgardian based jobs, it might be that the Player learned the basics of their class, but while Ishgard closed down its gates further they were unable to return. The Player then began to travel to the other city states. For reaper it's almost a given that the player will be, or at least be in contact with, Garlean defectors. Perhaps fleeing after their outlawing in Garlemald, or a forced conscript who learned the skills and escaped service. The Lemures could arrive after session 0 and be an interesting thread of connection and distrust.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th align="center" dir="ltr">Gridania</th>
+<th align="center" dir="ltr">Limsa Lominsa</th>
+<th align="center" dir="ltr">Ul'dah</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" dir="ltr">Astrologian</td>
+<td align="center" dir="ltr">Dancer</td>
+<td align="center" dir="ltr">Beast Master</td>
+</tr>
+<tr>
+<td align="center" dir="ltr">Bard</td>
+<td align="center" dir="ltr">Machinist</td>
+<td align="center" dir="ltr">Blue Mage</td>
+</tr>
+<tr>
+<td align="center" dir="ltr">Dark Knight</td>
+<td align="center" dir="ltr">Ninja</td>
+<td align="center" dir="ltr">Paladin</td>
+</tr>
+<tr>
+<td align="center" dir="ltr">Dragoon</td>
+<td align="center" dir="ltr">Sage</td>
+<td align="center" dir="ltr">Reaper</td>
+</tr>
+<tr>
+<td align="center" dir="ltr">Gunbreaker</td>
+<td align="center" dir="ltr">Scholar</td>
+<td align="center" dir="ltr">Red Mage</td>
+</tr>
+<tr>
+<td align="center" dir="ltr">Machinist</td>
+<td align="center" dir="ltr">Summoner</td>
+<td align="center" dir="ltr">Samurai</td>
+</tr>
+<tr>
+<td align="center" dir="ltr">Pictomancer</td>
+<td align="center" dir="ltr">Warrior</td>
+<td align="center" dir="ltr">Viper</td>
+</tr>
+<tr>
+<td align="center" dir="ltr">White Mage<br></td>
+<td align="center" dir="auto"></td>
+<td align="center" dir="ltr">Black Mage</td>
+</tr>
+</tbody>
+</table></div><div class="el-h2"><h2 data-heading="The young years" dir="auto" class="heading" id="The_young_years_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>The young years</h2></div><div class="el-p"><p dir="auto">Each of the Players when creating their character should work through their life's history. They can leave it to the dice in the PHB, or work with GM to create a story that makes sense. But it should be made clear that at some point in their lives, they witnessed the same event as many others - a meteor shower on the day of the <a data-href="Battle of Silvertear Skies" href="events/battle-of-silvertear-skies.html" class="internal-link" target="_self" rel="noopener nofollow">Battle of Silvertear Skies</a>. They experienced a sharp pain in their head, and passed out. Maybe this event led them to go and adventure, or perhaps to study the event at a major city. </p></div><div class="el-p"><p dir="auto">The players don't need to know each other at the start, as they will meet later. However, certain jobs can lend to easy connections of history. A Summoner and Scholar would both start as Arcanists for Limsa Lominsa, so they may have become friends. A Paladin could easily befriend a Dancer who had been working near the quicksands, or a monk as they sparred for the gladiator ring. A White Mage and Dragoon could easily start as part of a Gridanian greenhorn unit. A Dark Knight and Astrologian could be connected to some corruption of the Holy See and flee for different reasons without knowing each other, or the Dark Knight could be protecting a falsely accused "heretic" Astrologian. </p></div><div class="el-p"><p dir="auto">For jobs where you begin as another class, work with you Player to establish that history and start their story - a pugilist gets trained by a sparring partner who was a Monk in <a data-href="Ala Mhigo" href="locations/eorzea/gyr-abania/ala-mhigo.html" class="internal-link" target="_self" rel="noopener nofollow">Ala Mhigo</a>. A rising gladiator may be known for their honor in duels and <a data-href="The Sultansworn" href="organizations/the-sultansworn.html" class="internal-link" target="_self" rel="noopener nofollow">The Sultansworn</a> take notice. Though not all need to be connected to their previous jobs - a ninja could just be someone from the East who traveled to Eorzea to escape Garlean rule. </p></div><div class="el-p"><p dir="auto">Players can also add to their story by apprenticing at a guild or learning another trade in their years. These can add a little flavor or connection to their city. Some examples are below<br>
+| Fishing       |<br>
+| Botany        |<br>
+| Mining        |<br>
+| Carpenter     |<br>
+| Blacksmith    |<br>
+| Armorer       |<br>
+| Goldsmith     |<br>
+| Leatherworker |<br>
+| Weaver        |<br>
+| Alchemist     |<br>
+| Culinarian    |</p></div><div class="el-p"><p dir="auto">Once they have established their home, you can take players by their starting city and introduce them to <a data-tooltip-position="top" aria-label="Minfilia Warde" data-href="Minfilia Warde" href="people/minfilia-warde.html" class="internal-link" target="_self" rel="noopener nofollow">Minfilia</a>, the <a data-href="Path of the Twelve" href="organizations/path-of-the-twelve.html" class="internal-link" target="_self" rel="noopener nofollow">Path of the Twelve</a>, and the <a data-href="Circle of Knowing" href="organizations/circle-of-knowing.html" class="internal-link" target="_self" rel="noopener nofollow">Circle of Knowing</a>. </p></div><div class="el-h2"><h2 data-heading="The path of the Twelve" dir="auto" class="heading" id="The_path_of_the_Twelve_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>The path of the Twelve</h2></div><div class="el-p"><p dir="auto">Each of the Players will have a hint of the echos actual gift, ignited by the vision of a meteor shower seen again. They will be introduced to Minfilia via the people in their visions, and prepare for the path to Dalamud's descent. Depending on their history, you can adjust the following, but for each players starting city, read the following and allow for perception checks, or encourage them as you see fit.</p></div><div class="el-h4"><h4 data-heading="Gridania" dir="auto" class="heading" id="Gridania_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Gridania</h4></div><div class="el-p"><p dir="auto">The Order of the Twin Adder asks that all new recruits take small missions to assist the God's Quiver and Wood Wailers in the hunt for oddities and poachers. Despite seeing a very out of place masked Hyur and staff wielding Lalafell, your trip was uneventful. After a week in the woods, your group begins its trek back to Gridania. As you pass the Ampitheater, you begin to notice a small gathering of people and a Padjal trying to calm them. </p></div><div class="el-p"><p dir="auto">"Please, the greenwrath can be cleansed. Krim and all of you will be ok!" The Padjal yells. You notice in the crowd the Lalafell and Hyur you saw days ago. In the center of this group is a young boy, frozen in place. The Padjal begins chanting quietly, and you could swear you see a small winged creature follow his staff. He touches his staff to the head of the red haired child, and he begins to move again. As he does, the sky above turns into a dark black swirling storm. Meteors begin to fly forth from it, and you head stings, knocking you out. When you awaken, you are outside of Gridania, being helped by a hermit. "You. I have a feeling you saw something important."</p></div><div class="el-p"><p dir="auto">He gives you water to drink, and asks if this is the first time this has happened. "I see. I can't help you with it, but I know others who might. Ul'dah. Merchants ward." He scribbles a name onto the paper and leaves the waterskin with you. "Best to leave before the Twelveswood swallows you too." The man calmly walks into the forest, and quickly disappears. </p></div><div class="el-p"><p dir="auto">NOTE - Have your player roll a DC 8 perception check to notice that this man has a similar hair color, and the same angry expression as the frozen child, Krim. On a 12 they conclude it must be a sibling of them. They are in fact Krim, the frozen child in the vision.</p></div><div class="el-h4"><h4 data-heading="Limsa Lominsa" dir="auto" class="heading" id="Limsa_Lominsa_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Limsa Lominsa</h4></div><div class="el-p"><p dir="auto">The Maelstrom has assigned you and other recruits to investigate a potential pirate fugitive - one who has attacked Limsa's own ships. You make you way through the coast of Eastern La Noscea, your party takes a break as you keep watch and explore. Around a corner, you see a Miqote in white, and she looks to be protecting a Hyur pirate with a green mask against a Roegadyn clad in military red. </p></div><div class="el-p"><p dir="auto">As you run toward them, the pirate in red is struck by a large black orb, and falls limp to the ground. His chest glows white as a horn is magically lifted out of his pocket, and flies fast to a well dressed Elezen who disappears into a cloud of black mist. As he does, the clouds in the sky turn a dark black, and a storm of meteors begins to appear. Your head stings, your body goes limp, and as you awaken you see a man with glasses checking on you. Your Maelstrom friends have started to run over and the man tells you to meet him at the Drowned Wench, urgently.</p></div><div class="el-p"><p dir="auto">Hours later you meet the man, who calls himself Emerik. He tells you that he thinks he knows what caused your pain, hands you a note, a sack of gil for a boat ride, and tells you to visit a shop in the Merchants area of Ul'dah. "I will see you soon, friend." He chugs the last of his ale and walks off, coin left for the bill. </p></div><div class="el-p"><p dir="auto">NOTE - the Player can roll a DC 8 perception check to notice that this man has a similar jaw and hair color to the masked pirate. On a 12 they conclude it must be a sibling of them. They are in fact Emerik, the masked pirate in the vision.</p></div><div class="el-h4"><h4 data-heading="Ul'dah" dir="auto" class="heading" id="Ul'dah_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Ul'dah</h4></div><div class="el-p"><p dir="auto">After assisting the Immortal Flames in a fight with the Amaljaa, you and your crew return to Ul'dah. You pass by a young white haired man with a girl on each arm, and a dagger attached to his belt. As you pass a corner in the streets near the Hall of Flames, you almost bump into a young girl and her father. "Look! Fireworks!" shouts the girl. You hear the distinct sound of the fireworks as the father yells "Asillia, slow down!" You notice the street has gotten a lot busier. A celebration? A parade platform with a Goobue chained up passes by you. As you turn to look at the sky for the fireworks, what was once a clear day has darkened and a swirling vortex forms. From its center a soft red glow, then meteors. </p></div><div class="el-p"><p dir="auto">You feel a sting of pain in your head and, fall to the ground. As you awaken, you see the girl from before crying. Next to her is the Goobue and many others, dead. Its body is covered in cuts, burns and several daggers. Beneath part of it, the remains of what looks like her father. You blink once, and it all fades. There is nothing in that area. No parade. No Goobue. But next to you is a blonde woman, "would you mind coming with me?" she asks as she offers you a hand up. </p></div><div class="el-p"><p dir="auto">She takes you to the Merchants ward, into a seemingly beat down building nestled in the corner. "There will be some others visiting today, if my information is correct. Please, sit here and Tataru will bring you a drink."</p></div><div class="el-p"><p dir="auto">NOTE - the Player can roll a DC 8 perception check to notice that this woman looks incredibly similar to the child in the accident. On a 12 they conclude it must be a sibling of them. They are in fact Minfilia, the child in the vision.</p></div><div class="el-h4"><h4 data-heading="Meeting Minfilia - for real" dir="auto" class="heading" id="Meeting_Minfilia_-_for_real_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Meeting Minfilia - for real</h4></div><div class="el-p"><p dir="auto">After recovering, you visit the building your guide mentioned. The entrance leads to a welcoming room with a pink haired Lalafell standing at the desk, they appear to be doing some form on inventory paperwork. She looks up at all of you "Oh! You must be the adventurers we were referred! Pleasure to meet you, my name is Tataru Taru! Please, make yourselves at home and I will fetch Minfilia."</p></div><div class="el-p"><p dir="auto">After a few minutes, Tataru beckons you to the backrooms, and into a large meeting room with a young blonde woman sitting at the main chair. "I thank you all for coming. When I got word from our members that not one, but 4 adventurers with the echo had been found, I was joyous beyond measure."</p></div><div class="el-p"><p dir="auto">"The Path of the Twelve was started because I found others who had our gift. What you have, we call the 'Echo.' What you saw? Those were events long past. Each of you mentioned the meteor shower. That was 10 years ago, during the battle of Silvertear lake. You may have even seen it before. It can be confusing, but it is a gift for sure. "</p></div><div class="el-p"><p dir="auto">"That said... The Empire seeks to associate it with the beast tribes and their primals. One of their leaders is claiming to offer sanctuary if they are allowed to come in and destroy the beast tribes - and any who wield the echo. We know there are only a handful of people across Hydaelyn with the gift, and none seem to assist with summonings. Primals need crystals to live, and their tribes can barely gather enough to summon their gods every few months. I asked you here to see if you would join our path. Use your gift and help us fight for a united Eorzea against the Empire. Do work that would bring you past what the city states can or will do themselves."</p></div><div class="el-p"><p dir="auto">Over the next couple of months you undertake several missions with the Path. Have players roll a d10 each and the group will have undertaken, and gotten a bonus from, the following adventures</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th align="center" dir="ltr">D10 roll</th>
+<th align="center" dir="ltr">Adventure description</th>
+<th align="center" dir="ltr">Reward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="ltr">Halted a stolen crystal shipment headed for the Sahagin beastmen</td>
+<td align="center" dir="ltr">100 gil and a necklace with an anchor pendant</td>
+</tr>
+<tr>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="ltr">Confirmed presence of an Amalj'aa war party and reported their current location.</td>
+<td align="center" dir="ltr">150 gil and a small health potion</td>
+</tr>
+<tr>
+<td align="center" dir="auto">3</td>
+<td align="center" dir="ltr">Investigated rumors of voidsent and defeated a small demon</td>
+<td align="center" dir="ltr">200 gil and small silver bell with no ringer</td>
+</tr>
+<tr>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="ltr">Protected a member of the syndicate on their night out on the town</td>
+<td align="center" dir="ltr">200 gil and a set of loaded dice</td>
+</tr>
+<tr>
+<td align="center" dir="auto">5</td>
+<td align="center" dir="ltr">Investigated rumors of Eorzean defectors in the Twelveswood</td>
+<td align="center" dir="ltr">150 gil and an antidote</td>
+</tr>
+<tr>
+<td align="center" dir="auto">6</td>
+<td align="center" dir="ltr">Scouted Mor Dhona's borders for encroaching Imperials</td>
+<td align="center" dir="ltr">100 gil each and a discarded Imperial cap with "M' " carved inside</td>
+</tr>
+<tr>
+<td align="center" dir="auto">7</td>
+<td align="center" dir="ltr">Tracked escaped chocobos and returned them to their handler</td>
+<td align="center" dir="ltr">100 gil and a chocobo shaped whistle</td>
+</tr>
+<tr>
+<td align="center" dir="auto">8</td>
+<td align="center" dir="ltr">Found a dead courier and delivered their message to a recipient in Limsa Lominsa</td>
+<td align="center" dir="ltr">120 gil and patch that says "moogle mail"</td>
+</tr>
+<tr>
+<td align="center" dir="auto">9</td>
+<td align="center" dir="ltr">You escorted a merchant’s caravan through the Black Shroud. The route was fraught with wild beasts.</td>
+<td align="center" dir="ltr">150 gil and a golden chocobo feather</td>
+</tr>
+<tr>
+<td align="center" dir="auto">10</td>
+<td align="center" dir="ltr">A tribe of Amalj’aa kidnapped a Lalafell trader and demanded supplies in exchange for their life. You brokered the trade</td>
+<td align="center" dir="ltr">200 gil and a favor from the trader</td>
+</tr>
+</tbody>
+</table></div><div class="el-h2"><h2 data-heading="Meeting Louisoix" dir="auto" class="heading" id="Meeting_Louisoix_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Meeting Louisoix</h2></div><div class="el-p"><p dir="auto">Roll perception checks and hand a note so they keep it secret<br>
+10: You notice the second moon, Dalamud, has been a brighter red than usual<br>
+12: You notice the second moon, Dalamud, has been a brighter red than usual, and seems a bit larger.</p></div><div class="el-p"><p dir="auto">"After several months of work for the Path of the Twelve, you've noticed that more and more, there seems to be a large encroaching imperial presence. Minfilia hesitantly asks your team to assist in a small strike to steal an imperial airship from outside the MorDhona base, near Silvertear Falls. At the behest of an Ala Mhigan resistance group, you are going to serve as backup, helping them get a weapon of war back to the Alliance so it may be studied and possibly replicated."</p></div><div class="el-p"><p dir="auto">"The Ala Mhigan fighters took off before you. Their tall, orange haired leader telling you to wait 15 minutes for the flying mech to approach the designated meeting spot. As the time passes, to your amazement, you see an imperial flying machine and it's heading towards your meeting point! As you race over to meet them the ship starts to sway, and eventually spirals to the ground. </p></div><div class="el-p"><p dir="auto">As you approach the area, it is so thick with dust and ceruleum smoke it is so hard to see beyond 30 feet near you."</p></div><div class="el-p"><p dir="auto">INS + INS check:<br>
+8: You spot a shadow approaching your group, it looks to have the hairstyle of the Ala Mhigan leader.<br>
+10: It's hard to make out but the Ala Mhigan leader is just barely visible in the smoke, making a slow approach<br>
+13: You see the Ala Mhigan leader approaching, but his feet aren't touching the ground, and there is a large blade tip popping out of chest, and a silhouette behind him.</p></div><div class="el-p"><p dir="auto">Group DEX + DEX check<br>
+Failure: The bullet grazes you, but you are able to dodge out of the way<br>
+13: You dodge the bullets and gain your footing</p></div><div class="el-p"><p dir="auto">"'Your people are brave, but you were unwise to come here.' A heavily masked voice yells out to you. The Ala Mhigan leaders body is thrown from the long sword of the armored man behind him. The smoke begins to clear and you see the bodies of the rest of the resistance fighters. The armored man lifts his arm again, but it is hit with a dagger. He then deftly leans back to dodge a punch from a monk. Behind you, the voices of two casters, you feel the heat of a large fireball, and the soothing feeling of a healing spell across your skin. </p></div><div class="el-p"><p dir="auto">Allow them to make perception checks and attacks if they want.</p></div><div class="el-p"><p dir="auto">INS + INS check:<br>
+10: They recognize their corresponding city state Circle members</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>You are almost certain that the white mage behind you is the same Miqote you saw fighting the pirate in Limsa Liminsa.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>You are almost certain that the white haired rogue before you is the same one you saw in Ul'dah with women at his side.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>You are almost certain that the masked monk before you and the thaumaturge behind are the same Hyur and Lalafell you saw on patrol in the Twelveswood</li>
+</ul></div><div class="el-p"><p dir="auto">"As the fight between your groups goes on, the armored man talks calmly 'Garlemald will annihilate the primals and claim dominion over Eorzea. It is inevitable, as is your resistance.'</p></div><div class="el-p"><p dir="auto">Between all of the attacks and the pressure by your current comrades, the armored man jumps back and stands ready.</p></div><div class="el-p"><p dir="auto">'But a nation cannot be conquered if it ceases to exist. Nael Van Darnus would see this land destroyed by Meteor. I would instead see it conquered. So oppose Van Darnus, if you wish. It is the only hope you have of sparing Eorzea from complete obliteration.'</p></div><div class="el-p"><p dir="auto">With that he fires a flare from his wrist and throws a tied up scroll at your feet. From the smoke in the skies you see a intense yellow glow and a blast approaching your group.</p></div><div class="el-p"><p dir="auto">"I think its time to run!" shouts the white haired hyur. Your groups runs from the battlefield as a magitek blast explodes between you and the armored Imperial. Before another word can be muttered you feel a tingle on your skin, a blue glow, and the familiar feeling - you're being teleported. The smoke filled field before you evaporates and you are standing at the Ul'dah aetheryte, a very out of breath eldery Elezen is nearby. "Thank the twelve it worked. I've never managed a teleport like that."</p></div><div class="el-p"><p dir="auto">The elezen is a dark tan, with a white beard, and a very prominent tattoo on his forehead. He turns to your group and approaches slowly 'I am Louisoix Leveilleur. I am glad my missive was received by Minfilia, but when I heard where you went, well... I sent my allies to help." </p></div><div class="el-p"><p dir="auto">'I traveled far from Sharlayan with my compatriots,' he motions to the people who moments ago were fighting by your side. 'The Circle of Knowing. They have been working with the city states to prepare for what we believe to be another Umbral Calamity. We wished to ask you to help prevent that."</p></div><div class="el-p"><p dir="auto">Group check INS + INS<br>
+The missive seems to jibberish, likely a coded message. Two words do stand out though, 'Meteor', and 'Garlond.' Louisoix promises to investigate while you discuss the events with Minfilia. She is devastated by the news and fears that more aggression will arise. She too believes what the Sharlayan Archon is saying. She asks you to assist him, and his plan to beg the gods to intervene in the coming calamity.</p></div><div class="el-p"><p dir="auto">For several weeks you and your friends help Louisoix and the circle in several important tasks.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th align="center" dir="ltr">D20 roll</th>
+<th align="center" dir="ltr">Adventure description</th>
+<th align="center" dir="ltr">Reward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="ltr">Led an excursion into an ice cavern in Coerthas to pray to the mark of Halone for her blessing in the battle to come.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="ltr">Assisted with a shipment of weapons to the guards on the edge of Cartenau.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">3</td>
+<td align="center" dir="ltr">Led an excursion in Coerthas, near Ishgard. to pray to the mark of Menphina for her blessing in the battle to come.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="ltr">Assisted with a skirmish on the Lominsan docks with smuggles of crystals</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">5</td>
+<td align="center" dir="ltr">Attended a private prayer in Gridania with Kan E-Senna and the Padjal at the mark of Nophica for her blessing in the battle to come.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">6</td>
+<td align="center" dir="ltr">Delivered supplies to Little Ala Mhigo and were granted the chance to pray at the Mark of Rhalgar for his blessing in the battle to come. You left a large crystal from Louisoix at the base of the marking.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">7</td>
+<td align="center" dir="ltr">Led an excursion to the outskirts of Mor Dhona to pray to the mark of the Thaliak for his blessing in the battle to come.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">8</td>
+<td align="center" dir="ltr">Led an excursion near the ruins of Nym to pray to the mark of the Wanderer (Oschon) for his blessing in the battle to come. You left a large crystal from Louisoix at the base of the marking.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">9</td>
+<td align="center" dir="ltr">Traveled with the Wood Wailers into the South Shroud to pray to the mark of Althyk for his blessing in the battle to come. You left a large crystal from Louisoix at the base of the marking.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">10</td>
+<td align="center" dir="ltr">Attended a private gathering for prayer at the Arrzaneth Ossuary, where some syndicate members prayed to Nald'Thal for their nations safety. You left a large crystal from Louisoix at the base of the statue.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">11</td>
+<td align="center" dir="ltr">Led an excursion to Moraby Drydocks to pray to the mark of Nymeia for her blessing in the battle to come.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">12</td>
+<td align="center" dir="ltr">Led an excursion to the far off mark of Azeyma in Eastern Thanalan asking for her blessing in the battle to come. You left a large crystal from Louisoix at the base of the statue.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">13</td>
+<td align="center" dir="ltr">Assist in the rescue of a trapped adventuring party, sadly their Thaumaturge did no make it.</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">14</td>
+<td align="center" dir="ltr">Attended Merlwyb's private ceremony of prayer at he mark of Llymlaen for her blessing in the battle to come.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td align="center" dir="auto">15</td>
+<td align="center" dir="ltr">Gathered evidence of poaching and crystal theft in the Twelveswood</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">16</td>
+<td align="center" dir="ltr">Traveled with the Wood Wailers into the South Shroud to pray to the mark of Byregot for his blessing in the battle to come.</td>
+<td align="center" dir="auto">1</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">During these weeks of preparation, Minfilia and Tataru have been assisting Louisoix as well. Working to promote his ideals in Ul'Dah to the syndicate, and late nights of group planning and information sharing between the two groups. However, after your most recent adventure, you return to Ul'dah and Minfilia solemnly asks you to return to the Ossuary, the funeral home of Ul'dah. Entering it you see incense being swung over 4 covered corpses.</p></div><div class="el-p"><p dir="auto">"These adventurers set forth to find information on Ifrit, the primal of the Amaljaa. However, we were lucky to get just their remains back to their home. I fear to ask it of you as well but, we need information on this primal. Do NOT engage it, just scout and report any information you can gather. In the mean time we will continue our work for the Twelve."</p></div><div class="el-p"><p dir="auto">With that, your group is guided to the Amaljaa camp of southern Thanalan. Where you begin to scout the area, but notice its very quiet.</p></div><div class="el-p"><p dir="auto">GROUP INS + INS<br>
+10: Dead bodies of the Amaljaa are scattered about the field. The circle that appears almost as a scorched prayer mound, is steaming<br>
+13: The dead bodies are riddled with bullets and stab wounds, they appear to have been taken by surprise</p></div><div class="el-p"><p dir="auto">As you approach the remains, a march of footsteps approaches behind you "I would commend those that would defy a god."</p></div><div class="el-p"><p dir="auto">Behind you is a large, white armored Legatus, nearly a foot taller than the bodyguards around them.</p></div><div class="el-p"><p dir="auto">"I am Nael van Darnus, Legatus of the VIIth Imperial Legion, and bearer of salvation to the people of Eorzea. It warms my heart that there are those among you who would seek to cleanse their land, but the only path forward is by joining hands with the Garlean Empire."</p></div><div class="el-p"><p dir="auto">"You may see our Empire as little more than a covetous beast, hungry for territory. But naught could be farther from the truth. This world is stricken by an evil blight, and we move to bring deliverance. "</p></div><div class="el-p"><p dir="auto">There is a gunship pointed down at you, and while none of the guards have removed their weapons, the Legatus is slowly removing the spear from their back.</p></div><div class="el-p"><p dir="auto">"The hour of reckoning is at hand and this land shall be purged." The spear begins glowing and a large blast shoots towards you</p></div><div class="el-p"><p dir="auto">GROUP DEX + DEX<br>
+Failure: You are hit by the blast and knocked onto your back. A searing pain starts to expand from where you were hit<br>
+10: You manage to dodge most of the blast but it does make contact and knocks you prone<br>
+12: You manage to dodge the blast and stand at the ready, though not sure if you could defeat them.</p></div><div class="el-p"><p dir="auto">Brief fight</p></div><div class="el-p"><p dir="auto">"Before you stands a tall white haired man. He wears the clothes of a craftsman, likely a blacksmith given the glove and apron. A pair of goggles adorn his forehead and a large gold pendant is hanging in the front. "</p></div><div class="el-p"><p dir="auto">"My name is Cid Garlond. Your friend Louisoix found me and gave me that note you found. I deciphered it, and the Empire isn't going to just invade. They have a project in the works that will decimate Eorzea. The Bozja Incident, do you know of it?"</p></div><div class="el-p"><p dir="auto">History check, 10 DC.<br>
+Failure:<br>
+"You recall something about a city of Bozja, that the empire took over their land."</p></div><div class="el-p"><p dir="auto">Success:<br>
+"Bozja was home of the Hrothgar, and rumor has it their capital was destroyed in a single night."</p></div><div class="el-p"><p dir="auto">"Aye, but it wasn't an army that razed that city. It was a weapon. A weapon which I fear the empire is rebuilding here in Eorzea. The aether used to summon these primals, the aether used to fight them, the magics used everywhere - it's being drained to a central location, feeding this weapon. Though why Gaius saw fit to tell us is a mystery to me. He's supposed to be in charge of the XIVth and VIIth legions leading these war efforts. </p></div><div class="el-p"><p dir="auto">Never the less, the leaders have agreed it must be destroyed, but even now the grand companies are tied up with skirmishes on the edges of their territories. They're trusting you lot. I can fly you close to the location, Castrum Novum. We have a small contingent running interference, but you lot will be a strike force to shut this weapon down.</p></div><div class="el-p"><p dir="auto">If you don't, I fear what happened to Bozja will be childs play in comparison. "  He stares up at Dalamud, it is now unmistakably larger and glowing an ominous red.</p></div><div class="el-p"><p dir="auto">GROUP CHECK FOR CASTRUM FIGHTS</p></div><div class="el-p"><p dir="auto">Van Darnus is beaten, thrown into the flames, and you manage to disable the transponder. For a brief moment you sense relief. Whatever Project Meteor was doing to Dalamud, it should be stopped now. </p></div><div class="el-p"><p dir="auto">"The hour of cleansing is at hand! Dalamud's glory will be brought to the world!" Nael Van Darnus, and the land around them are quickly thrown high into the sky, you yourselves are flung up along with debris and chunks of the castrum. </p></div><div class="el-p"><p dir="auto">DEX + DEX check for landing safely in the sky.</p></div><div class="el-p"><p dir="auto">"Oh Dalamud, bringer of death! Grant me your power!" Van Darnus' body shakes and begins to glow slightly red. From this height, the moon of Dalamud seems to be etched, and it appears as if large pylons are beginning to poke out of it.</p></div><div class="el-p"><p dir="auto">Van Darnus turns to your group, "Recieve my gift of purity."</p></div><div class="el-p"><p dir="auto">GROUP COMBAT CHECK</p></div><div class="el-p"><p dir="auto">As Van Darnus falls to the ground, their body explodes into a splash of aether. With Van Darnus's death, the floating debris you have been fighting on has begun to descend. Cid and his airship arrive to grab your group. You breathe a sigh of relief as you travel back to Gridania, welcomed as heroes. As Warriors of Light. </p></div><div class="el-p"><p dir="auto">Though it was short lived. Lousioix and Minfillia take you aside. Dalamud's descent has not slowed, nor has the empires march into Eorzea. Louisoix tells you his last effort - summoning the gods to deliver Eorzea  from Dalamud's impact. He bids you make prayers to your god, and make ready for the coming battle. </p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th align="center" dir="ltr">D10 roll</th>
+<th align="center" dir="ltr">Random event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="ltr">When you look upon Dalamud, you swear you can hear a sad, singing voice. but the only words you can make out are "my children"</td>
+</tr>
+<tr>
+<td align="center" dir="auto">3</td>
+<td align="center" dir="ltr">You have a vivid nightmare - a purple hazy battlefield, dead soldiers, dead friends, all begin to fade. Nael walk behind you and stabs you with his lance. You wake up sweating.</td>
+</tr>
+<tr>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">5</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">6</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">7</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">8</td>
+<td align="center" dir="auto"></td>
+</tr>
+<tr>
+<td align="center" dir="auto">9</td>
+<td align="center" dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">As a final pilgrimage, your group travels with Louisoix to the altar of Nophica. To place an offering, and an abundance of crystals for those that would gather there later. The ceremony is brief, but on the wind you can hear a familiar masked voice. </p></div><div class="el-p"><p dir="auto">"My friend from the flames, I had to stifle a cheer when I heard the news of Van Darnus's fate." Far in the distance you spot Gaius Van Baelsar. </p></div><div class="el-p"><p dir="auto">"I have pulled my men out of Eorzea, but Van Darnus's VIIth legion remains on your lands, looking for their leader, keeping his plans. Tell your leaders, their battlefield will be Carteneau. I hope your plan works heroes, so that you might leave me something to conquer. When all is said and done, Garlemald's standard shall rise in every corner of the realm. So live, that we may fight again."</p></div><div class="el-p"><p dir="auto">Your head begins to ring, and you see a vision as you did before. It looks like the inside of an Imperial base, with two figures talking. One is clearly Gaius, he tilts his helmeted head as he places his arm on the shoulder of... Cid. Cid looks down, sad? He swats Gaius's arm away, and walks out of the room. Shaking your heads and reeling from the pain, you find yourself on your knees, being cared for Louisoix and Urianger. </p></div><div class="el-p"><p dir="auto">The Circle of Knowing and Path of the Twelve welcome you back to Ul'dah. The Brass Blades try to keep the crowds in line while the Immortal Flames soldiers begin their march out of town. "The Sultana has reached an agreement with the other leaders. The Eorzean Alliance marches for Carteneau. The Immortal Flames will fight side by side with the Maelstrom and Twin Adder. They will hold back the Garleans so our summoning can commence. While we fight, each city will be praying to the gods, hopefully adding to our summoning. I would not tell you to, but I would ask you Warriors of light, attend the battlefield. Your presence may be invaluable, and at the very least, may lift the spirits of these soldiers."</p></div><div class="el-p"><p dir="auto">MAKE ANY LAST PREPARATIONS</p></div><div class="el-p"><p dir="auto">As you leave Ul'dah and begin your march among the Immortal Flames, you see the sky is dark, churning with clouds, and a mass of monsters you have never seen before is assaulting the city. There in defense of their home is the oddest sight - Goobues mounted by riders, swinging madly at the beasts. The first line of defense in what will be a long night. </p></div><div class="el-p"><p dir="auto">The sky is ablaze with the incredible glow of Dalamud. It has nearly impacted Hydaelyn, and chunks of it have started to fall over the land. The Immortal Flames align their ranks beside the Twin Adders and Maelstrom members. A united Eorzea stands befor ethe might of the VIIth legion. The soldiers in formation are nervous but a voice starts a soldiers chant as the Imperials approach. ""</p></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"></div></div></div></body></html>
